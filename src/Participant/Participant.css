@@ -1,0 +1,43 @@
+.participant {
+  text-align: left;
+}
+
+.avatar {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 0 10px;
+  float: left;
+}
+
+.name {
+  margin: 0;
+}
+
+.indicator {
+  display: inline-block;
+  margin: 5px 10px 0 0;
+  font-size: 16px;
+  color: gray;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+}
+
+.in-session {
+  border: 2px solid green;
+  background-color: green;
+}
+
+.not-in-session {
+  border: 2px solid gray;
+  background-color: white;
+}
+
+.boot-option {
+  color: dodgerblue;
+}
