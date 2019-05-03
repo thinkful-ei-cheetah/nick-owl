@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Participant Component renders UI as expected 1`] = `
+<div
+  className="participant"
+>
+  <img
+    alt="undefined Avatar"
+    className="avatar"
+  />
+  <h3
+    className="name"
+  />
+  <span
+    className="indicator dot not-in-session"
+  />
+  <p
+    className="indicator status-text"
+  >
+    not in session
+  </p>
+  <p
+    className="indicator boot-option"
+  >
+    · Boot
+  </p>
+</div>
+`;

@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders UI as expected 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Nick's OWL
+  </h1>
+  <section
+    className="participant-list"
+  >
+    <ul>
+      <li>
+        <div
+          className="participant"
+        >
+          <img
+            alt="Koren Templeton Avatar"
+            className="avatar"
+            src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+          />
+          <h3
+            className="name"
+          >
+            Koren Templeton
+          </h3>
+          <span
+            className="indicator dot in-session"
+          />
+          <p
+            className="indicator status-text"
+          >
+            on stage
+          </p>
+          <p
+            className="indicator boot-option hidden"
+          >
+            · Boot
+          </p>
+        </div>
+      </li>
+      <li>
+        <div
+          className="participant"
+        >
+          <img
+            alt="Ashla Attwool Avatar"
+            className="avatar"
+            src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+          />
+          <h3
+            className="name"
+          >
+            Ashla Attwool
+          </h3>
+          <span
+            className="indicator dot in-session"
+          />
+          <p
+            className="indicator status-text"
+          >
+            on stage
+          </p>
+          <p
+            className="indicator boot-option"
+          >
+            · Boot
+          </p>
+        </div>
+      </li>
+      <li>
+        <div
+          className="participant"
+        >
+          <img
+            alt="Caty Flucker Avatar"
+            className="avatar"
+            src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+          />
+          <h3
+            className="name"
+          >
+            Caty Flucker
+          </h3>
+          <span
+            className="indicator dot in-session"
+          />
+          <p
+            className="indicator status-text"
+          >
+            in session
+          </p>
+          <p
+            className="indicator boot-option"
+          >
+            · Boot
+          </p>
+        </div>
+      </li>
+      <li>
+        <div
+          className="participant"
+        >
+          <img
+            alt="Frank Runciman Avatar"
+            className="avatar"
+            src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+          />
+          <h3
+            className="name"
+          >
+            Frank Runciman
+          </h3>
+          <span
+            className="indicator dot in-session"
+          />
+          <p
+            className="indicator status-text"
+          >
+            in session
+          </p>
+          <p
+            className="indicator boot-option"
+          >
+            · Boot
+          </p>
+        </div>
+      </li>
+      <li>
+        <div
+          className="participant"
+        >
+          <img
+            alt="Axe Kubicka Avatar"
+            className="avatar"
+            src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+          />
+          <h3
+            className="name"
+          >
+            Axe Kubicka
+          </h3>
+          <span
+            className="indicator dot not-in-session"
+          />
+          <p
+            className="indicator status-text"
+          >
+            not in session
+          </p>
+          <p
+            className="indicator boot-option"
+          >
+            · Boot
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+`;

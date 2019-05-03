@@ -1,17 +1,17 @@
-import React from 'react'
-import './Participant.css'
+import React from 'react';
+import './Participant.css';
 
 export default function Participant(props) {
   let status = '';
   if(props.inSession) {
     if(props.onStage) {
-      status = 'on stage'
+      status = 'on stage';
     } else {
-      status = 'in session'
+      status = 'in session';
     }
   } else {
-    status = 'not in session'
-  }
+    status = 'not in session';
+  };
 
   return (
     <div className="participant">
@@ -23,5 +23,5 @@ export default function Participant(props) {
         </p>
         <p className={"indicator boot-option" + (props.lead ? " hidden" : "")}>&#183; Boot</p>
     </div>
-  )
-}
+  );
+};

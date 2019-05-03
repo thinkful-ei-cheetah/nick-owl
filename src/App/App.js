@@ -6,18 +6,18 @@ import PARTICIPANTS from '../participants';
 class App extends Component {
   state = {
     participants: [...PARTICIPANTS]
-  }
+  };
 
   componentDidMount() {
     const sortedParticipants = 
       this.state.participants
         .sort( (a, b) => b.inSession - a.inSession )
-        .sort( (a, b) => b.onStage - a.onStage )
+        .sort( (a, b) => b.onStage - a.onStage );
     
     this.setState({
       participants: sortedParticipants
-    })
-  }
+    });
+  };
 
   render() {
     return (
@@ -26,7 +26,7 @@ class App extends Component {
         <ParticipantList participants={this.state.participants}/>
       </div>
     );
-  } 
-}
+  }; 
+};
 
 export default App;
