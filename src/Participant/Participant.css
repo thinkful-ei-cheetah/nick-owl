@@ -33,6 +33,10 @@
   background-color: green;
 }
 
+.hidden {
+  display: none;
+}
+
 .not-in-session {
   border: 2px solid gray;
   background-color: white;

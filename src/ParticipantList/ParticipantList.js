@@ -1,10 +1,9 @@
 import React from 'react'
-import PARTICIPANTS from '../participants.js'
 import Participant from '../Participant/Participant.js'
 import './ParticipantList.css'
 
-export default function ParticipantList() {
-  const participants = PARTICIPANTS.map( participant => {
+export default function ParticipantList(props) {
+  const participants = props.participants.map( participant => {
     return ( 
     <li key={participant.id}>
       <Participant
@@ -12,6 +11,7 @@ export default function ParticipantList() {
         name={participant.name}
         inSession={participant.inSession}
         onStage={participant.onStage}
+        lead={participant.id === 1 ? true : false}
       />
     </li>
     )
