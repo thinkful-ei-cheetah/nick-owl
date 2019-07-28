@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ParticipantList from '../ParticipantList/ParticipantList';
 import PARTICIPANTS from '../participants';
+import Stage from '../Stage/Stage';
 
 class App extends Component {
   state = {
@@ -24,6 +25,7 @@ class App extends Component {
       <div className="App">
         <h1>Nick's OWL</h1>
         <ParticipantList participants={this.state.participants}/>
+        <Stage participants={this.state.participants}/>
       </div>
     );
   }; 
